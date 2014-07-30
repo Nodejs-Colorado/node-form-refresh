@@ -1,0 +1,12 @@
+extends layout
+
+//- passed into layout.jade when form.jade is rendered
+block content
+  h1= title
+  form(method="post" action="/create")
+    label(for="day") Day:
+    input(type="text", name="day", value=day)
+    input(type="submit", value="Save")
+  br
+  - for day in days
+    p= day.day_name
