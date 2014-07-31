@@ -181,7 +181,7 @@ Take a quick look at the *layout.jade* and *index.jade* files. There's a relatio
 
 Do you see the `block` keyword?
 
-What really happens when the *index* file is rendered is that it first inherits the base template because of the `extends` keywords. So, the *layout* template then gets rendered, which eventually pulls in the child template, overwrite the `block` keyword with:
+What really happens when the *index* file is rendered is that it first inherits the base template because of the `extends` keywords. So, the *layout* template then gets rendered, which eventually pulls in the child template, overwriting the `block` keyword with:
 
 ```html
 h1= title
