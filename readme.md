@@ -2,7 +2,7 @@
 
 Welcome. Using Node, Express, and Mongoose, let's create an interactive form.
 
-> Before you start, make sure you have [Node](http://nodejs.org/download/) installed for your specific operating system. This tutorial also uses Expression version 4.2.0.
+> Before you start, make sure you have [Node](http://nodejs.org/download/) installed for your specific operating system. This tutorial also uses Express version 4.2.0.
 
 ## Setup
 
