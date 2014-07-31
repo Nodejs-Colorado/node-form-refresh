@@ -283,7 +283,7 @@ Okay. So, we are handling the routes, rendering the right template, let's now se
 
 ## Setup Mongoose
 
-Mongoose is awesome. Start with defining the Schema, which the maps to a collection in Mongo. It utilizes an OOP paradigm.
+Mongoose is awesome. Start with defining the Schema, which the maps to a collection in Mongo. It utilizes OOP.
 
 1. Create a file called *database.js* in your apps route directory, then add the following code:
 
