@@ -105,7 +105,7 @@ app.use('/users', users)
 
 Here, we know that this route is associated with the `/users` endpoint. What's an endpoint? Simply navigate to [http://localhost:3000/users](http://localhost:3000/users). That's all it is.
 
-So the end user navigates to that endpoint and expects *something* to happen. That could meant some HTML is rendered or perhaps JSON is returned. That's not important at this point. For now, let's look at how Node handles that logic for "handling routes".
+So the end user navigates to that endpoint and expects *something* to happen. That could mean some HTML is rendered or perhaps JSON is returned. That's not important at this point. For now, let's look at how Node handles that logic for "handling routes".
 
 Also, within that route, you can see the variable `users`. Where is that in this file? It's at the top, and it loads in another file within our app:
 
