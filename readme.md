@@ -270,7 +270,7 @@ Let's set it up.
 
     /* POST form. */
     router.post('/', function(req, res) {
-      console.log(req.body.comment)
+      console.log(req.body.comment);
       res.redirect('form');
     });
 
@@ -371,7 +371,7 @@ Back in *form.js*, update the function handling POST requests:
 router.post('/', function(req, res) {
   new Comment({title : req.body.comment})
   .save(function(err, comment) {
-    console.log(comment)
+    console.log(comment);
     res.redirect('form');
   });
 });
